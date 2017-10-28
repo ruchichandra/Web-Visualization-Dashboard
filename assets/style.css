@@ -1,13 +1,12 @@
 .logo {
-    background-color: blue;
-    color: whitesmoke;
+    background-color: green;
     font-weight: bold;
     font-size: 30px;
 }
 
-/* .first image {
+.first image {
     width :30%; 
     float: left; 
     margin : 5px;
 
-} */
+}
