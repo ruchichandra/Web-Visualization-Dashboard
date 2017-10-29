@@ -2,7 +2,7 @@
 
 ## Weather Analysis Visualization: 
 ### https://ruchichandra.github.io/Web-Visualization-Dashboard/
-### Created a visualization dashboard website for the analysis of weather in different citiies of the world across the globe.
+### Created a visualization dashboard website for the analysis of weather in different cities of the world across the globe.
 
 This is an analysis and visualization of weather of 700+ cities across the world. The main objective was to showcase the relationship of various factors like temperature, humidity, cloudiness and wind speed with respect to the distance from the equator. <br> 
 
