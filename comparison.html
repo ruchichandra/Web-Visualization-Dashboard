@@ -22,57 +22,57 @@
     <title>Weather Analysis Visualization</title>
 </head>
 <body style="background-color: lightgray">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <div class="col-md-1"></div>
-                <div class="col-md-1"></div>
-                <div class="col-md-1"></div>
-                <a class="navbar-brand logo" href="index.html"> 
-                <span class="nav-color">Latitude</span></a>
-            </div>
-
-            <div class="nav navbar-nav navbar-right">
-                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="temperature.html">Max Temperature</a></li>
-                        <li><a href="humidity.html">Humidity</a></li>
-                        <li><a href="cloudiness.html">Cloudiness</a></li>
-                        <li><a href="wind_speed.html">Wind Speed</a></li>
-                    </ul>
-                </li>
-                <li class = "active"><a href="comparison.html"> Comparison</a></li>
-                <li class = "active"><a href="data.html"> Data</a></li>                                           
-            </div>
-        </div>      
-    </nav>
+        
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand logo" href="index.html"> 
+                    <span class="nav-color">Latitude</span></a>
+                </div>
+    
+                <div class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Plots<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="temperature.html">Max Temperature</a></li>
+                            <li><a href="humidity.html">Humidity</a></li>
+                            <li><a href="cloudiness.html">Cloudiness</a></li>
+                            <li><a href="wind_speed.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="comparison.html"> Comparison</a></li>
+                    <li><a href="data.html"> Data</a></li>                                           
+                </div>
+            </div>      
+        </nav>
+    
 
        
-        <div class = "container-fluid">
-            <div class="row">                          
-                <div class="col-md-1"></div>
-                    <div class="col-md-10">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
+    <div class = "container">
+        <div class="row">                          
+            <div class="col-md-12">
+                <div class="panel panel-default">
+                    <div class="panel-body">
 
                             <h2>Latitude vs. X</h2>
                             <hr>
                             <p>Click on any plot to get an in-depth analysis.</p>
-                            <div class="row" style = "padding-bottom: 10px">
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                    <h3>vs Max Temperture</h3>
-                                    <a href="temperature.html"><img class = "img img-responsive" src="assets\Latitude_vs_MaxTemp.png" style="width:100%" alt=""></a></div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                    <h3>vs Humidity</h3>
-                                    <a href="humidity.html"><img class = "img img-responsive" src="assets\Latitude_vs_Humidity.png" style="width:100%" alt=""></a></div>
-                            </div>
+
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                    <h3>vs Cloudiness</h3>
-                                    <a href="cloudiness.html"><img class = "img img-responsive" src="assets\Latitude_vs_Cloudiness.png" style="width:100%" alt=""></a></div>
+                                    <h3 class = "text-center">vs Max Temperture</h3>
+                                    <a href="temperature.html"><img class = "img img-responsive" src="assets\Latitude_vs_MaxTemp.png" style="width:80%" alt=""></a></div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                                    <h3>vs Wind Speed</h3>
-                                    <a href="wind_speed.html"><img class = "img img-responsive" src="assets\Latitude_vs_WindSpeed.png" style="width:100%" alt=""></a></div>
+                                    <h3 class = "text-center">vs Humidity</h3>
+                                    <a href="humidity.html"><img class = "img img-responsive" src="assets\Latitude_vs_Humidity.png" style="width:80%" alt=""></a></div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <h3 class = "text-center">vs Cloudiness</h3>
+                                    <a href="cloudiness.html"><img class = "img img-responsive" src="assets\Latitude_vs_Cloudiness.png" style="width:80%" alt=""></a></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <h3 class = "text-center">vs Wind Speed</h3>
+                                    <a href="wind_speed.html"><img class = "img img-responsive" src="assets\Latitude_vs_WindSpeed.png" style="width:80%" alt=""></a></div>
                             </div>
                                         
                     </div>

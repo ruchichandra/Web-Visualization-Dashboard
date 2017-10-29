@@ -22,12 +22,10 @@
     <title>Weather Analysis Visualization</title>
 </head>
 <body style="background-color: lightgray">
+    
     <nav class="navbar navbar-default">
-        <div class="container-fluid">
+        <div class="container">
             <div class="navbar-header">
-                <div class="col-md-1"></div>
-                <div class="col-md-1"></div>
-                <div class="col-md-1"></div>
                 <a class="navbar-brand logo" href="index.html"> 
                 <span class="nav-color">Latitude</span></a>
             </div>
@@ -41,52 +39,48 @@
                         <li><a href="wind_speed.html">Wind Speed</a></li>
                     </ul>
                 </li>
-                <li class = "active"><a href="comparison.html"> Comparison</a></li>
-                <li class = "active"><a href="data.html"> Data</a></li>                                           
+                <li><a href="comparison.html"> Comparison</a></li>
+                <li><a href="data.html"> Data</a></li>                                           
             </div>
         </div>      
     </nav>
 
-       
-        <div class = "container-fluid">
-            <div class="row">                          
-                <div class="col-md-1"></div>
-                    <div class="col-md-8">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
+    <div class = "container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-body">
 
-                        <h2>Summary: Latitude vs Longitude</h2>
-                        <hr>
-                        <img class="first image" src="assets\Global_Temperature.png" alt="first image" >
-                        <p>This is an analysis and visualization of weather of 700+ cities across the world. The main objective was to showcase the relationship of various factors like temperature, humidity, cloudiness and wind speed with respect to the distance from the equator.
-                        For this analysis, approx. 2000 coordinate pairs of latitude and longitude were created randomly and then citypy (a python library) was used to generate city names for respective coordinates. 
-                        After selecting unique non-repeat observations, a weather check was performed on each of the cities using a series of successive API calls from OpenWeatherMap. Then all different point of interests were plotted against latitude using Matplotlib and Seaborn libraries.
-                        </p>
-                        <br>        
+                    <h2>Summary: Latitude vs Longitude</h2>
+                    <hr>
+                    <img class="first image" src="assets\Global_Temperature.png" alt="first image" >
+                    <p class = "text">This is an analysis and visualization of weather of 700+ cities across the world. The main objective was to showcase the relationship of various factors like temperature, humidity, cloudiness and wind speed with respect to the distance from the equator. <br> 
+                    For this analysis, approx. 2000 coordinate pairs of latitude and longitude were created randomly and then citypy (a python library) was used to generate city names for respective coordinates. 
+                    After selecting unique non-repeat observations, a weather check was performed on each of the cities using a series of successive API calls from OpenWeatherMap. Then all different point of interests were plotted against latitude using Matplotlib and Seaborn libraries.<br> 
+                    In conclusion, an equatorial climate is a type of tropical climate in which there is no dry season. It is usually found at latitudes within five degrees of the equator and tropical rainforest is the natural vegetation.</p>
+                    <br>        
                     </div>
-
-                        <div class="col-md-3">                          
-                            <div class="panel panel-default">
-                                <div class="panel-body">                                    
-                                    <h2>Visualizations</h2>
-                                    <hr>
-
-                                    <div class="row" style = "padding-bottom: 10px">
-                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temperature.html"><img class = "img img-responsive" src="assets\Latitude_vs_MaxTemp.png" style="width:100%" alt=""></a></div>
-                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class = "img img-responsive" src="assets\Latitude_vs_Humidity.png" style="width:100%" alt=""></a></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudiness.html"><img class = "img img-responsive" src="assets\Latitude_vs_Cloudiness.png" style="width:100%" alt=""></a></div>
-                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="wind_speed.html"><img class = "img img-responsive" src="assets\Latitude_vs_WindSpeed.png" style="width:100%" alt=""></a></div>
-                                    </div>
-                                      
-                                </div>
-                        
-                            </div>
-                        </div>
-                        <div class="col-md-1"></div>
+                </div>
             </div>
-        </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                        <div class="panel-body">                                    
+                            <h2>Visualizations</h2>
+                            <hr>
+
+                            <div class="row" >
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="temperature.html"><img class = "img img-responsive" src="assets\Latitude_vs_MaxTemp.png" style="width:100%" alt=""></a></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class = "img img-responsive" src="assets\Latitude_vs_Humidity.png" style="width:100%" alt=""></a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudiness.html"><img class = "img img-responsive" src="assets\Latitude_vs_Cloudiness.png" style="width:100%" alt=""></a></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="wind_speed.html"><img class = "img img-responsive" src="assets\Latitude_vs_WindSpeed.png" style="width:100%" alt=""></a></div>
+                            </div>
+                                
+                        </div>
+                </div>     
+            </div>    
+    </div>
 </body>
 </html>
 

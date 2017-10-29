@@ -1,12 +1,18 @@
 .logo {
-    background-color: green;
     font-weight: bold;
-    font-size: 30px;
+    background-color: navy;
+    color: white;
+    font-size: 60px;
+    font-style:italic;
 }
 
 .first image {
-    width :30%; 
+    width: 20%; 
     float: left; 
     margin : 5px;
 
+}
+
+.text {
+    float: right;
 }
