@@ -4,6 +4,11 @@
 ### https://ruchichandra.github.io/Web-Visualization-Dashboard/
 ### Created a visualization dashboard website for the analysis of weather in different cities of the world across the globe.
 
+
+![myimage-alt-tag](https://github.com/ruchichandra/Web-Visualization-Dashboard/blob/master/Dashboard.PNG)
+
+
+
 This is an analysis and visualization of weather of 700+ cities across the world. The main objective was to showcase the relationship of various factors like temperature, humidity, cloudiness and wind speed with respect to the distance from the equator. <br> 
 
 For this analysis, approx. 2000 coordinate pairs of latitude and longitude were created randomly and then citypy (a python library) was used to generate city names for respective coordinates. 
