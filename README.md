@@ -1,6 +1,4 @@
-# Web-Visualization-Dashboard
-
-## Weather Analysis Visualization: 
+# Weather Analysis Visualization
 ### https://ruchichandra.github.io/Web-Visualization-Dashboard/
 ### Created a visualization dashboard website for the analysis of weather in different cities of the world across the globe.
 
